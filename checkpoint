@@ -1,2 +1,2 @@
-model_checkpoint_path: "lenet-modified"
-all_model_checkpoint_paths: "lenet-modified"
+model_checkpoint_path: "modified-lenet"
+all_model_checkpoint_paths: "modified-lenet"
