@@ -11798,7 +11798,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[201]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load pickled data</span>
@@ -11854,7 +11854,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[202]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Replace each question mark with the appropriate value. </span>
@@ -11921,7 +11921,7 @@ Number of classes = 43
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[203]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">X_train</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
@@ -12008,7 +12008,7 @@ Number of classes = 43
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[204]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">X_train</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
@@ -12058,7 +12058,7 @@ Number of classes = 43
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[205]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Data exploration visualization code goes here.</span>
@@ -12245,13 +12245,14 @@ vU8ufAAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[206]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># histogram of class frequency</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="k">def</span> <span class="nf">show_class_frequency</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">n_classes</span><span class="p">):</span>
     <span class="n">hist</span><span class="p">,</span> <span class="n">bins</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">histogram</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="n">n_classes</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">hist</span><span class="p">)</span>
     <span class="n">width</span> <span class="o">=</span> <span class="mf">0.7</span> <span class="o">*</span> <span class="p">(</span><span class="n">bins</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">bins</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
     <span class="n">center</span> <span class="o">=</span> <span class="p">(</span><span class="n">bins</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="n">bins</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span> <span class="o">/</span> <span class="mi">2</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">center</span><span class="p">,</span> <span class="n">hist</span><span class="p">,</span> <span class="n">align</span><span class="o">=</span><span class="s1">&#39;center&#39;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="n">width</span><span class="p">)</span>
@@ -12265,7 +12266,7 @@ vU8ufAAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[207]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">show_class_frequency</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">n_classes</span><span class="p">)</span>
@@ -12280,6 +12281,19 @@ vU8ufAAAAABJRU5ErkJggg==
 <div class="output_wrapper">
 <div class="output">
 
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[ 180 1980 2010 1260 1770 1650  360 1290 1260 1320 1800 1170 1890 1920  690
+  540  360  990 1080  180  300  270  330  450  240 1350  540  210  480  240
+  390  690  210  599  360 1080  330  180 1860  270  300  210  210]
+</pre>
+</div>
+</div>
 
 <div class="output_area">
 
@@ -12391,6 +12405,19 @@ apghIEkN+/9BkfBCFautlwAAAABJRU5ErkJggg==
 <div class="prompt"></div>
 
 
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[ 30 240 240 150 210 210  60 150 150 150 210 150 210 240  90  90  60 120
+ 120  30  60  60  60  60  30 150  60  30  60  30  60  90  30  90  60 120
+  60  30 210  30  60  30  30]
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
 
 
 <div class="output_png output_subarea ">
@@ -12465,6 +12492,19 @@ vSQ1zqCXpMYZ9JLUOINekhpn0EtS4wx6SWqcQS9Jjfs/UsEDUTV3ZYkAAAAASUVORK5CYII=
 >
 </div>
 
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[ 60 720 750 450 660 630 150 450 450 480 660 420 690 720 270 210 150 360
+ 390  60  90  90 120 150  90 480 180  60 150  90 150 270  60 210 120 390
+ 120  60 690  90  90  60  90]
+</pre>
+</div>
 </div>
 
 <div class="output_area">
@@ -12574,6 +12614,492 @@ xyELma4AAAAASUVORK5CYII=
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[208]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">y_test</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">X_test</span><span class="p">[</span><span class="n">y_test</span> <span class="o">==</span> <span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[False False False ..., False False False]
+[[[255 222 181]
+  [253 183 139]
+  [199 108  75]
+  ..., 
+  [ 53  16  19]
+  [ 53  18  14]
+  [ 51  19  19]]
+
+ [[253 222 183]
+  [234 157 114]
+  [166  80  52]
+  ..., 
+  [ 53  36  38]
+  [ 62  47  38]
+  [ 53  40  38]]
+
+ [[248 214 176]
+  [219 142 100]
+  [162  77  43]
+  ..., 
+  [ 52  48  51]
+  [ 52  47  51]
+  [ 50  46  51]]
+
+ ..., 
+ [[ 75  88  92]
+  [166 141 122]
+  [199 144 136]
+  ..., 
+  [ 45  41  50]
+  [ 38  33  39]
+  [ 33  31  36]]
+
+ [[ 73  91  92]
+  [150 131 117]
+  [177 129 128]
+  ..., 
+  [ 58  50  58]
+  [ 45  37  42]
+  [ 35  31  36]]
+
+ [[ 68  98 112]
+  [ 79 100 105]
+  [115 111 116]
+  ..., 
+  [ 71  59  65]
+  [ 50  40  44]
+  [ 37  31  35]]]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Using-data-augmentation">Using data augmentation<a class="anchor-link" href="#Using-data-augmentation">&#182;</a></h3><p>To generate more data for smaller classes, we will use the following data augmentation techniques. This is taken from <a href="https://medium.com/@vivek.yadav/improved-performance-of-deep-learning-neural-network-models-on-traffic-sign-classification-using-6355346da2dc">this post</a> on Medium.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[209]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">cv2</span>
+
+<span class="k">def</span> <span class="nf">augment_brightness_camera_images</span><span class="p">(</span><span class="n">image</span><span class="p">):</span>
+    <span class="n">image1</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">cvtColor</span><span class="p">(</span><span class="n">image</span><span class="p">,</span><span class="n">cv2</span><span class="o">.</span><span class="n">COLOR_RGB2HSV</span><span class="p">)</span>
+    <span class="n">image1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">image1</span><span class="p">,</span> <span class="n">dtype</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">float64</span><span class="p">)</span>
+    <span class="n">random_bright</span> <span class="o">=</span> <span class="o">.</span><span class="mi">5</span><span class="o">+</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">()</span>
+    <span class="n">image1</span><span class="p">[:,:,</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">image1</span><span class="p">[:,:,</span><span class="mi">2</span><span class="p">]</span><span class="o">*</span><span class="n">random_bright</span>
+    <span class="n">image1</span><span class="p">[:,:,</span><span class="mi">2</span><span class="p">][</span><span class="n">image1</span><span class="p">[:,:,</span><span class="mi">2</span><span class="p">]</span><span class="o">&gt;</span><span class="mi">255</span><span class="p">]</span>  <span class="o">=</span> <span class="mi">255</span>
+    <span class="n">image1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">image1</span><span class="p">,</span> <span class="n">dtype</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">uint8</span><span class="p">)</span>
+    <span class="n">image1</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">cvtColor</span><span class="p">(</span><span class="n">image1</span><span class="p">,</span><span class="n">cv2</span><span class="o">.</span><span class="n">COLOR_HSV2RGB</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">image1</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[210]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">transform_image</span><span class="p">(</span><span class="n">image</span><span class="p">,</span><span class="n">ang_range</span><span class="p">,</span><span class="n">shear_range</span><span class="p">,</span><span class="n">trans_range</span><span class="p">,</span><span class="n">brightness</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="c1"># Rotation</span>
+    <span class="n">ang_rot</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">ang_range</span><span class="p">)</span><span class="o">-</span><span class="n">ang_range</span><span class="o">/</span><span class="mi">2</span>
+    <span class="n">rows</span><span class="p">,</span><span class="n">cols</span><span class="p">,</span><span class="n">ch</span> <span class="o">=</span> <span class="n">image</span><span class="o">.</span><span class="n">shape</span>    
+    <span class="n">Rot_M</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">getRotationMatrix2D</span><span class="p">((</span><span class="n">cols</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span><span class="n">rows</span><span class="o">/</span><span class="mi">2</span><span class="p">),</span><span class="n">ang_rot</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+    <span class="c1"># Translation</span>
+    <span class="n">tr_x</span> <span class="o">=</span> <span class="n">trans_range</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">()</span><span class="o">-</span><span class="n">trans_range</span><span class="o">/</span><span class="mi">2</span>
+    <span class="n">tr_y</span> <span class="o">=</span> <span class="n">trans_range</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">()</span><span class="o">-</span><span class="n">trans_range</span><span class="o">/</span><span class="mi">2</span>
+    <span class="n">Trans_M</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">tr_x</span><span class="p">],[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">tr_y</span><span class="p">]])</span>
+    <span class="c1"># Shear</span>
+    <span class="n">pts1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">([[</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">],[</span><span class="mi">20</span><span class="p">,</span><span class="mi">5</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">20</span><span class="p">]])</span>
+    <span class="n">pt1</span> <span class="o">=</span> <span class="mi">5</span><span class="o">+</span><span class="n">shear_range</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">()</span><span class="o">-</span><span class="n">shear_range</span><span class="o">/</span><span class="mi">2</span>
+    <span class="n">pt2</span> <span class="o">=</span> <span class="mi">20</span><span class="o">+</span><span class="n">shear_range</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">()</span><span class="o">-</span><span class="n">shear_range</span><span class="o">/</span><span class="mi">2</span>
+    <span class="n">pts2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">([[</span><span class="n">pt1</span><span class="p">,</span><span class="mi">5</span><span class="p">],[</span><span class="n">pt2</span><span class="p">,</span><span class="n">pt1</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="n">pt2</span><span class="p">]])</span>
+    <span class="n">shear_M</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">getAffineTransform</span><span class="p">(</span><span class="n">pts1</span><span class="p">,</span><span class="n">pts2</span><span class="p">)</span>
+        
+    <span class="n">image</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">warpAffine</span><span class="p">(</span><span class="n">image</span><span class="p">,</span><span class="n">Rot_M</span><span class="p">,(</span><span class="n">cols</span><span class="p">,</span><span class="n">rows</span><span class="p">))</span>
+    <span class="n">image</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">warpAffine</span><span class="p">(</span><span class="n">image</span><span class="p">,</span><span class="n">Trans_M</span><span class="p">,(</span><span class="n">cols</span><span class="p">,</span><span class="n">rows</span><span class="p">))</span>
+    <span class="n">image</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">warpAffine</span><span class="p">(</span><span class="n">image</span><span class="p">,</span><span class="n">shear_M</span><span class="p">,(</span><span class="n">cols</span><span class="p">,</span><span class="n">rows</span><span class="p">))</span>
+    
+    <span class="c1">#Brightness augmentation</span>
+    <span class="n">image</span> <span class="o">=</span> <span class="n">augment_brightness_camera_images</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">image</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[212]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># the largest class has around 2000 images. Therefore, for each class</span>
+<span class="c1"># that does not have enough data, we will generate more.</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="n">hist</span><span class="p">,</span> <span class="n">bins</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">histogram</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="n">n_classes</span><span class="p">)</span>
+
+<span class="n">X_augmented</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">y_augmented</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="n">to_generate</span> <span class="o">=</span> <span class="mi">10000</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">43</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">hist</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">to_generate</span><span class="p">:</span>
+        <span class="k">continue</span> 
+    <span class="n">to_create</span> <span class="o">=</span> <span class="n">to_generate</span> <span class="o">-</span> <span class="n">hist</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="n">each_to_create</span> <span class="o">=</span> <span class="n">to_create</span> <span class="o">/</span> <span class="n">hist</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    
+    <span class="n">X_in_class</span> <span class="o">=</span> <span class="n">X_train</span><span class="p">[</span><span class="n">y_train</span> <span class="o">==</span> <span class="n">i</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">each_to_create</span> <span class="o">&lt;</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">image</span> <span class="ow">in</span> <span class="n">X_in_class</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">to_create</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+            <span class="n">X_augmented</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">transform_image</span><span class="p">(</span><span class="n">image</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="n">brightness</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span>
+            <span class="n">y_augmented</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">each_to_create</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">each_to_create</span><span class="p">))</span>
+        <span class="k">for</span> <span class="n">image</span> <span class="ow">in</span> <span class="n">X_in_class</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">each_to_create</span><span class="p">):</span>
+                <span class="n">X_augmented</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">transform_image</span><span class="p">(</span><span class="n">image</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="n">brightness</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span>
+                <span class="n">y_augmented</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[213]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train_balanced</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">((</span><span class="n">X_train</span><span class="p">,</span> <span class="n">X_augmented</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">y_train_balanced</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">((</span><span class="n">y_train</span><span class="p">,</span> <span class="n">y_augmented</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[214]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">show_class_frequency</span><span class="p">(</span><span class="n">y_train_balanced</span><span class="p">,</span> <span class="n">n_classes</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[10080  9900 10050 10080 10620  9900 10080 10320 10080 10560 10800 10530
+  9450  9600  9660 10260 10080  9900  9720 10080  9900  9990  9900  9900
+ 10080  9450 10260 10080 10080 10080 10140  9660 10080 10183 10080  9720
+  9900 10080  9300  9990  9900 10080 10080]
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+YII=
+"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[215]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">X_train_balanced</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#load</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span> <span class="c1"># show the image</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+AElFTkSuQmCC
+"
+>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[216]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train</span> <span class="o">=</span> <span class="n">X_train_balanced</span>
+<span class="n">y_train</span> <span class="o">=</span> <span class="n">y_train_balanced</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -12624,7 +13150,7 @@ xyELma4AAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[222]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Preprocess the data here. It is required to normalize the data. Other preprocessing steps could include </span>
@@ -12662,7 +13188,7 @@ xyELma4AAAAASUVORK5CYII=
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Grayscale shape: (34799, 32, 32, 1)
+<pre>Grayscale shape: (430663, 32, 32, 1)
 </pre>
 </div>
 </div>
@@ -12673,7 +13199,7 @@ xyELma4AAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[223]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.cm</span> <span class="k">as</span> <span class="nn">cm</span>
@@ -12840,7 +13366,7 @@ fiESReIXIlEkfiESReIXIlEkfiES5f8BAOZ4IfOJ3YYAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[224]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### normalize the data</span>
@@ -12872,7 +13398,7 @@ fiESReIXIlEkfiESReIXIlEkfiES5f8BAOZ4IfOJ3YYAAAAASUVORK5CYII=
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>-0.354081335648
+<pre>-0.490152359509
 -0.347215411128
 -0.358215153428
 </pre>
@@ -13035,7 +13561,7 @@ fiESReIXIlEkfiESReIXIlEkfiES5f8BAOZ4IfOJ3YYAAAAASUVORK5CYII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[225]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Define your architecture here.</span>
@@ -13076,11 +13602,19 @@ fiESReIXIlEkfiESReIXIlEkfiES5f8BAOZ4IfOJ3YYAAAAASUVORK5CYII=
     <span class="n">pooling2_padding</span> <span class="o">=</span> <span class="s1">&#39;VALID&#39;</span>
     <span class="n">pooling2_conv2</span> <span class="o">=</span> <span class="n">maxpooling</span><span class="p">(</span><span class="n">conv2</span><span class="p">,</span> <span class="n">pooling2_ksize</span><span class="p">,</span> <span class="n">pooling2_strides</span><span class="p">,</span> <span class="n">pooling2_padding</span><span class="p">)</span>
     
-    <span class="c1"># Flatten. Input = 5x5x16. Output = 400. Here 5x5x16 = 400</span>
-    <span class="n">flattened</span> <span class="o">=</span> <span class="n">flatten</span><span class="p">(</span><span class="n">pooling2_conv2</span><span class="p">)</span>
+    <span class="c1"># Adding a new Conv Layer 3: Convolutional. Input = 5 x 5 x 16. Output = 4 x 4 x 32</span>
+    <span class="n">conv3_filter_W</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">(</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">32</span><span class="p">),</span> <span class="n">mean</span> <span class="o">=</span> <span class="n">mu</span><span class="p">,</span> <span class="n">stddev</span> <span class="o">=</span> <span class="n">sigma</span><span class="p">))</span>
+    <span class="n">conv3_filter_b</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">32</span><span class="p">))</span>
+    <span class="n">conv3_strides</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">conv3_padding</span> <span class="o">=</span> <span class="s1">&#39;VALID&#39;</span>
+    <span class="n">output</span> <span class="o">=</span> <span class="n">conv2d</span><span class="p">(</span><span class="n">pooling2_conv2</span><span class="p">,</span> <span class="n">conv3_filter_W</span><span class="p">,</span> <span class="n">conv3_filter_b</span><span class="p">,</span> <span class="n">conv3_strides</span><span class="p">,</span> <span class="n">conv3_padding</span><span class="p">)</span>
+    <span class="n">conv3</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="n">output</span><span class="p">)</span>
     
-    <span class="c1"># Layer 3: Fully Connected. Input = 400. Output = 120.</span>
-    <span class="n">fc1_W</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">(</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">400</span><span class="p">,</span> <span class="mi">120</span><span class="p">),</span> <span class="n">mean</span> <span class="o">=</span> <span class="n">mu</span><span class="p">,</span> <span class="n">stddev</span> <span class="o">=</span> <span class="n">sigma</span><span class="p">))</span>
+    <span class="c1"># Flatten. Input = 4x4x32. Output = 512.</span>
+    <span class="n">flattened</span> <span class="o">=</span> <span class="n">flatten</span><span class="p">(</span><span class="n">conv3</span><span class="p">)</span>
+    
+    <span class="c1"># Layer 3: Fully Connected. Input = 512. Output = 120.</span>
+    <span class="n">fc1_W</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">(</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">512</span><span class="p">,</span> <span class="mi">120</span><span class="p">),</span> <span class="n">mean</span> <span class="o">=</span> <span class="n">mu</span><span class="p">,</span> <span class="n">stddev</span> <span class="o">=</span> <span class="n">sigma</span><span class="p">))</span>
     <span class="n">fc1_b</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">120</span><span class="p">))</span>
     <span class="n">fc1</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">flattened</span><span class="p">,</span> <span class="n">fc1_W</span><span class="p">),</span> <span class="n">fc1_b</span><span class="p">)</span>
     <span class="n">fc1</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="n">fc1</span><span class="p">)</span>
@@ -13097,10 +13631,17 @@ fiESReIXIlEkfiESReIXIlEkfiES5f8BAOZ4IfOJ3YYAAAAASUVORK5CYII=
     <span class="c1"># Dropout 2</span>
     <span class="n">drop_out2</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">fc2</span><span class="p">,</span> <span class="n">keep_prob</span><span class="p">)</span>
     
-    <span class="c1"># Layer 5: Fully Connected. Input = 84. Output = 43.</span>
-    <span class="n">fc3_W</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">((</span><span class="mi">84</span><span class="p">,</span> <span class="mi">43</span><span class="p">),</span> <span class="n">mean</span> <span class="o">=</span> <span class="n">mu</span><span class="p">,</span> <span class="n">stddev</span> <span class="o">=</span> <span class="n">sigma</span><span class="p">))</span>
-    <span class="n">fc3_b</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">43</span><span class="p">))</span>
-    <span class="n">logits</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">fc2</span><span class="p">,</span> <span class="n">fc3_W</span><span class="p">),</span> <span class="n">fc3_b</span><span class="p">)</span>
+    <span class="c1"># Layer 5: Fully Connected. Input = 84. Output = 60.</span>
+    <span class="n">fc3_W</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">((</span><span class="mi">84</span><span class="p">,</span> <span class="mi">60</span><span class="p">),</span> <span class="n">mean</span> <span class="o">=</span> <span class="n">mu</span><span class="p">,</span> <span class="n">stddev</span> <span class="o">=</span> <span class="n">sigma</span><span class="p">))</span>
+    <span class="n">fc3_b</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">60</span><span class="p">))</span>
+    <span class="n">fc3</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">drop_out2</span><span class="p">,</span> <span class="n">fc3_W</span><span class="p">),</span> <span class="n">fc3_b</span><span class="p">)</span>
+    <span class="n">fc3</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">relu</span><span class="p">(</span><span class="n">fc3</span><span class="p">)</span>
+    
+    <span class="c1"># Layer 6: Fully Connected. Input = 60. Output = 43.</span>
+    <span class="n">fc4_W</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">((</span><span class="mi">60</span><span class="p">,</span> <span class="mi">43</span><span class="p">),</span> <span class="n">mean</span> <span class="o">=</span> <span class="n">mu</span><span class="p">,</span> <span class="n">stddev</span> <span class="o">=</span> <span class="n">sigma</span><span class="p">))</span>
+    <span class="n">fc4_b</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">43</span><span class="p">))</span>
+    <span class="c1"># logits = tf.add(tf.matmul(fc2, fc3_W), fc3_b)</span>
+    <span class="n">logits</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">fc3</span><span class="p">,</span> <span class="n">fc4_W</span><span class="p">),</span> <span class="n">fc4_b</span><span class="p">)</span>
     
     <span class="k">return</span> <span class="n">logits</span>
 
@@ -13124,7 +13665,7 @@ fiESReIXIlEkfiESReIXIlEkfiES5f8BAOZ4IfOJ3YYAAAAASUVORK5CYII=
     <span class="n">pooling1_padding</span> <span class="o">=</span> <span class="s1">&#39;VALID&#39;</span>
     <span class="n">pooling1_conv1</span> <span class="o">=</span> <span class="n">maxpooling</span><span class="p">(</span><span class="n">conv1</span><span class="p">,</span> <span class="n">pooling1_ksize</span><span class="p">,</span> <span class="n">pooling1_strides</span><span class="p">,</span> <span class="n">pooling1_padding</span><span class="p">)</span>
     
-    <span class="c1"># Layer 2: Convolutional. Output = 10x10x16.</span>
+    <span class="c1"># Layer 2: Convolutional. Input = 14 x 14 x 6. Output = 10x10x16.</span>
     <span class="n">conv2_filter_W</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">(</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">16</span><span class="p">),</span> <span class="n">mean</span> <span class="o">=</span> <span class="n">mu</span><span class="p">,</span> <span class="n">stddev</span> <span class="o">=</span> <span class="n">sigma</span><span class="p">),</span> <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;W2&#39;</span><span class="p">)</span>
     <span class="n">conv2_filter_b</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">16</span><span class="p">),</span> <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;b2&#39;</span><span class="p">)</span>
     <span class="n">conv2_strides</span> <span class="o">=</span> <span class="mi">1</span>
@@ -13138,7 +13679,7 @@ fiESReIXIlEkfiESReIXIlEkfiES5f8BAOZ4IfOJ3YYAAAAASUVORK5CYII=
     <span class="n">pooling2_padding</span> <span class="o">=</span> <span class="s1">&#39;VALID&#39;</span>
     <span class="n">pooling2_conv2</span> <span class="o">=</span> <span class="n">maxpooling</span><span class="p">(</span><span class="n">conv2</span><span class="p">,</span> <span class="n">pooling2_ksize</span><span class="p">,</span> <span class="n">pooling2_strides</span><span class="p">,</span> <span class="n">pooling2_padding</span><span class="p">)</span>
     
-    <span class="c1"># Layer 3: Convolutional. Output = 1 x 1 x 400</span>
+    <span class="c1"># Layer 3: Convolutional. Input = 5 x 5 x 16. Output = 1 x 1 x 400</span>
     <span class="n">conv3_filter_W</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal</span><span class="p">(</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">16</span><span class="p">,</span> <span class="mi">400</span><span class="p">),</span> <span class="n">mean</span> <span class="o">=</span> <span class="n">mu</span><span class="p">,</span> <span class="n">stddev</span> <span class="o">=</span> <span class="n">sigma</span><span class="p">),</span> <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;W3&#39;</span><span class="p">)</span>
     <span class="n">conv3_filter_b</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">Variable</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">400</span><span class="p">),</span> <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;b3&#39;</span><span class="p">)</span>
     <span class="n">conv3_strides</span> <span class="o">=</span> <span class="mi">1</span>
@@ -13210,7 +13751,7 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[226]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">float32</span><span class="p">,</span> <span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">32</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
@@ -13235,12 +13776,13 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[227]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">rate</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">placeholder</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span> <span class="c1">#0.001</span>
 
-<span class="n">logits</span> <span class="o">=</span> <span class="n">LeNet</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="c1">#LeNet_Modified(x)</span>
+<span class="c1"># logits = LeNet(x) #LeNet_Modified(x)</span>
+<span class="n">logits</span> <span class="o">=</span> <span class="n">LeNet_Modified</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 <span class="n">cross_entropy</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">softmax_cross_entropy_with_logits</span><span class="p">(</span><span class="n">labels</span> <span class="o">=</span> <span class="n">one_hot_y</span><span class="p">,</span> <span class="n">logits</span> <span class="o">=</span> <span class="n">logits</span><span class="p">)</span>
 <span class="n">loss</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">reduce_mean</span><span class="p">(</span><span class="n">cross_entropy</span><span class="p">)</span>
 <span class="n">optimizer</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">train</span><span class="o">.</span><span class="n">AdamOptimizer</span><span class="p">(</span><span class="n">learning_rate</span> <span class="o">=</span> <span class="n">rate</span><span class="p">)</span>
@@ -13263,7 +13805,7 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[228]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">correct_prediction</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">equal</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">logits</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">tf</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">one_hot_y</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
@@ -13300,13 +13842,13 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[229]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">EPOCHS</span> <span class="o">=</span> <span class="mi">50</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">EPOCHS</span> <span class="o">=</span> <span class="mi">60</span>
 <span class="n">BATCH_SIZE</span> <span class="o">=</span> <span class="mi">128</span>
-<span class="n">LEARNING_RATE</span> <span class="o">=</span> <span class="mf">0.001</span>
-<span class="n">KEEP_PROB</span> <span class="o">=</span> <span class="mf">0.5</span>
+<span class="n">LEARNING_RATE</span> <span class="o">=</span> <span class="mf">0.001</span> <span class="c1"># 0.0005 </span>
+<span class="n">KEEP_PROB</span> <span class="o">=</span> <span class="mf">0.35</span>
 
 <span class="n">CHECK_POINT</span> <span class="o">=</span> <span class="s1">&#39;./modified-lenet&#39;</span>
 </pre></div>
@@ -13318,7 +13860,7 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[230]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Train your model here.</span>
@@ -13371,204 +13913,244 @@ sets imply underfitting. A high accuracy on the training set but low accuracy on
 <pre>Training in progress...
 
 EPOCH 1 ...
-Training Accuracy = 0.877
-Validation Accuracy = 0.809
+Training Accuracy = 0.797
+Validation Accuracy = 0.877
 
 EPOCH 2 ...
-Training Accuracy = 0.957
-Validation Accuracy = 0.883
+Training Accuracy = 0.867
+Validation Accuracy = 0.908
 
 EPOCH 3 ...
-Training Accuracy = 0.973
-Validation Accuracy = 0.911
+Training Accuracy = 0.898
+Validation Accuracy = 0.928
 
 EPOCH 4 ...
-Training Accuracy = 0.984
-Validation Accuracy = 0.917
+Training Accuracy = 0.904
+Validation Accuracy = 0.927
 
 EPOCH 5 ...
-Training Accuracy = 0.988
-Validation Accuracy = 0.926
-
-EPOCH 6 ...
-Training Accuracy = 0.991
-Validation Accuracy = 0.932
-
-EPOCH 7 ...
-Training Accuracy = 0.992
-Validation Accuracy = 0.934
-
-EPOCH 8 ...
-Training Accuracy = 0.994
+Training Accuracy = 0.923
 Validation Accuracy = 0.931
 
-EPOCH 9 ...
-Training Accuracy = 0.996
+EPOCH 6 ...
+Training Accuracy = 0.930
+Validation Accuracy = 0.945
+
+EPOCH 7 ...
+Training Accuracy = 0.938
 Validation Accuracy = 0.932
 
-EPOCH 10 ...
-Training Accuracy = 0.997
-Validation Accuracy = 0.936
-
-EPOCH 11 ...
-Training Accuracy = 0.997
-Validation Accuracy = 0.933
-
-EPOCH 12 ...
-Training Accuracy = 0.997
-Validation Accuracy = 0.937
-
-EPOCH 13 ...
-Training Accuracy = 0.998
-Validation Accuracy = 0.944
-
-EPOCH 14 ...
-Training Accuracy = 0.999
-Validation Accuracy = 0.940
-
-EPOCH 15 ...
-Training Accuracy = 0.999
-Validation Accuracy = 0.947
-
-EPOCH 16 ...
-Training Accuracy = 0.998
+EPOCH 8 ...
+Training Accuracy = 0.944
 Validation Accuracy = 0.943
 
-EPOCH 17 ...
-Training Accuracy = 0.999
-Validation Accuracy = 0.940
+EPOCH 9 ...
+Training Accuracy = 0.945
+Validation Accuracy = 0.951
 
-EPOCH 18 ...
-Training Accuracy = 0.999
-Validation Accuracy = 0.948
+EPOCH 10 ...
+Training Accuracy = 0.944
+Validation Accuracy = 0.943
 
-EPOCH 19 ...
-Training Accuracy = 1.000
+EPOCH 11 ...
+Training Accuracy = 0.952
 Validation Accuracy = 0.947
 
-EPOCH 20 ...
-Training Accuracy = 0.999
-Validation Accuracy = 0.948
+EPOCH 12 ...
+Training Accuracy = 0.953
+Validation Accuracy = 0.958
 
-EPOCH 21 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.942
-
-EPOCH 22 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.946
-
-EPOCH 23 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.951
-
-EPOCH 24 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.948
-
-EPOCH 25 ...
-Training Accuracy = 1.000
+EPOCH 13 ...
+Training Accuracy = 0.957
 Validation Accuracy = 0.952
 
-EPOCH 26 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.951
-
-EPOCH 27 ...
-Training Accuracy = 0.999
-Validation Accuracy = 0.946
-
-EPOCH 28 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.949
-
-EPOCH 29 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.954
-
-EPOCH 30 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.957
-
-EPOCH 31 ...
-Training Accuracy = 0.999
-Validation Accuracy = 0.945
-
-EPOCH 32 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.948
-
-EPOCH 33 ...
-Training Accuracy = 0.999
-Validation Accuracy = 0.951
-
-EPOCH 34 ...
-Training Accuracy = 0.999
-Validation Accuracy = 0.946
-
-EPOCH 35 ...
-Training Accuracy = 1.000
+EPOCH 14 ...
+Training Accuracy = 0.955
 Validation Accuracy = 0.952
 
-EPOCH 36 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.956
-
-EPOCH 37 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.956
-
-EPOCH 38 ...
-Training Accuracy = 1.000
+EPOCH 15 ...
+Training Accuracy = 0.955
 Validation Accuracy = 0.951
 
-EPOCH 39 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.953
-
-EPOCH 40 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.954
-
-EPOCH 41 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.960
-
-EPOCH 42 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.960
-
-EPOCH 43 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.951
-
-EPOCH 44 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.952
-
-EPOCH 45 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.960
-
-EPOCH 46 ...
-Training Accuracy = 1.000
+EPOCH 16 ...
+Training Accuracy = 0.957
 Validation Accuracy = 0.950
 
-EPOCH 47 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.945
+EPOCH 17 ...
+Training Accuracy = 0.963
+Validation Accuracy = 0.962
 
-EPOCH 48 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.954
+EPOCH 18 ...
+Training Accuracy = 0.962
+Validation Accuracy = 0.967
 
-EPOCH 49 ...
-Training Accuracy = 1.000
+EPOCH 19 ...
+Training Accuracy = 0.964
+Validation Accuracy = 0.968
+
+EPOCH 20 ...
+Training Accuracy = 0.963
+Validation Accuracy = 0.966
+
+EPOCH 21 ...
+Training Accuracy = 0.962
+Validation Accuracy = 0.970
+
+EPOCH 22 ...
+Training Accuracy = 0.963
+Validation Accuracy = 0.967
+
+EPOCH 23 ...
+Training Accuracy = 0.962
+Validation Accuracy = 0.964
+
+EPOCH 24 ...
+Training Accuracy = 0.960
+Validation Accuracy = 0.969
+
+EPOCH 25 ...
+Training Accuracy = 0.951
+Validation Accuracy = 0.959
+
+EPOCH 26 ...
+Training Accuracy = 0.970
+Validation Accuracy = 0.970
+
+EPOCH 27 ...
+Training Accuracy = 0.968
+Validation Accuracy = 0.967
+
+EPOCH 28 ...
+Training Accuracy = 0.969
+Validation Accuracy = 0.971
+
+EPOCH 29 ...
+Training Accuracy = 0.965
+Validation Accuracy = 0.969
+
+EPOCH 30 ...
+Training Accuracy = 0.962
+Validation Accuracy = 0.970
+
+EPOCH 31 ...
+Training Accuracy = 0.971
+Validation Accuracy = 0.971
+
+EPOCH 32 ...
+Training Accuracy = 0.965
 Validation Accuracy = 0.961
 
+EPOCH 33 ...
+Training Accuracy = 0.971
+Validation Accuracy = 0.968
+
+EPOCH 34 ...
+Training Accuracy = 0.971
+Validation Accuracy = 0.971
+
+EPOCH 35 ...
+Training Accuracy = 0.965
+Validation Accuracy = 0.966
+
+EPOCH 36 ...
+Training Accuracy = 0.969
+Validation Accuracy = 0.966
+
+EPOCH 37 ...
+Training Accuracy = 0.973
+Validation Accuracy = 0.971
+
+EPOCH 38 ...
+Training Accuracy = 0.962
+Validation Accuracy = 0.965
+
+EPOCH 39 ...
+Training Accuracy = 0.964
+Validation Accuracy = 0.967
+
+EPOCH 40 ...
+Training Accuracy = 0.959
+Validation Accuracy = 0.967
+
+EPOCH 41 ...
+Training Accuracy = 0.973
+Validation Accuracy = 0.966
+
+EPOCH 42 ...
+Training Accuracy = 0.964
+Validation Accuracy = 0.965
+
+EPOCH 43 ...
+Training Accuracy = 0.972
+Validation Accuracy = 0.967
+
+EPOCH 44 ...
+Training Accuracy = 0.975
+Validation Accuracy = 0.972
+
+EPOCH 45 ...
+Training Accuracy = 0.972
+Validation Accuracy = 0.976
+
+EPOCH 46 ...
+Training Accuracy = 0.974
+Validation Accuracy = 0.968
+
+EPOCH 47 ...
+Training Accuracy = 0.973
+Validation Accuracy = 0.970
+
+EPOCH 48 ...
+Training Accuracy = 0.972
+Validation Accuracy = 0.977
+
+EPOCH 49 ...
+Training Accuracy = 0.975
+Validation Accuracy = 0.974
+
 EPOCH 50 ...
-Training Accuracy = 1.000
-Validation Accuracy = 0.953
+Training Accuracy = 0.976
+Validation Accuracy = 0.970
+
+EPOCH 51 ...
+Training Accuracy = 0.975
+Validation Accuracy = 0.972
+
+EPOCH 52 ...
+Training Accuracy = 0.975
+Validation Accuracy = 0.972
+
+EPOCH 53 ...
+Training Accuracy = 0.977
+Validation Accuracy = 0.974
+
+EPOCH 54 ...
+Training Accuracy = 0.976
+Validation Accuracy = 0.969
+
+EPOCH 55 ...
+Training Accuracy = 0.975
+Validation Accuracy = 0.968
+
+EPOCH 56 ...
+Training Accuracy = 0.975
+Validation Accuracy = 0.970
+
+EPOCH 57 ...
+Training Accuracy = 0.974
+Validation Accuracy = 0.970
+
+EPOCH 58 ...
+Training Accuracy = 0.976
+Validation Accuracy = 0.975
+
+EPOCH 59 ...
+Training Accuracy = 0.974
+Validation Accuracy = 0.976
+
+EPOCH 60 ...
+Training Accuracy = 0.976
+Validation Accuracy = 0.973
 
 Model saved.
 </pre>
@@ -13586,11 +14168,259 @@ Model saved.
 <h3 id="Analysis">Analysis<a class="anchor-link" href="#Analysis">&#182;</a></h3><ul>
 <li>Log entry 1 on March 21, 2018: Using the LeNet-5 architecture in the lesson, the validation accuracy is at around 92.4% while the training accuracy is 100%. This may indicate that the model is overfitting the data. We can think of adding dropout layers into the network.</li>
 <li>Log entry 2 on March 21, 2018: After adding two dropout layers, the validation accuracy has increased to 96.5% with a 3% improvement from previous model. Is there ways to further improve the accuracy? The project mentioned that we could check the data distributions among different classes and generate fake data if necessary. This could be something we can explore next. However, let's finish the rest of the notebook since the validation accuracy is already above the minimum requirement.</li>
-<li>Log netry 3 on March 22, 2018: Added some modification model according to the paper. However, the performance is only around 95%. It is possible that the data distribution has more impact on the performance than the architecture.</li>
+<li>Log entry 3 on March 22, 2018: Added some modification model according to the paper. However, the performance is only around 95%. It is possible that the data distribution has more impact on the performance than the architecture.</li>
+<li>Log entry 4 on March 28, 2018: It seems that the network in entry 2 only used 1 dropout instead of 2 and achieved above 96% accuracy on the validation set. Changing it to 2 dropout and see how the performance changes. </li>
+<li>Log entry 5 on March 28, 2018: Adding the second dropout seems to have no obvious effect (with only 0.1% accuracy drop on the validation set). I'm going to add another FC layer on top of this.</li>
+<li>Log entry 6 on March 28, 2018: Adding an FC layer seems to achieve above 96% accuracy on the validation set earlier than before and keep increasing. Try increasing the epoch number to 70.</li>
+<li>Log entry 7 on March 28, 2018: Increasing the epoch seems helping a bit but not significantly. Plan to add another conv layer.</li>
+<li>Log entry 8 on March 30, 2018: Added another conv layer. The performance are stablizing around the higher end of 96-97% rather than struggling with 95-96%. Try increasing the epoch to 100. </li>
+<li>Log entry 9 on March 30, 2018: Training more epochs doesn't help. To further close the gap (caused by variance), we can get more (augmented) data, especially when we know that the classes are highly imbalanced.</li>
+<li>Log entry 10 on March 30, 2018: Adding augmented data helped validation accuracy to go over 90% early but in the end it still stays around 97%. The training accuracy, however, dropped to 95 to 96%. This is because the training set data is now harder than the validation set. There is not much variance issue but maybe the network archiecture is not good enough to push it further.</li>
+<li>Log entry 11 on March 31, 2018: Using the Modified network archiecture with augmented data did not help much. There are still gaps between training and validation accuracy. Since we have changed the distribution of the training dataset, the mismatch of data distribution may play a role in this. </li>
 </ul>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Review-of-the-process">Review of the process<a class="anchor-link" href="#Review-of-the-process">&#182;</a></h3><p>Judging from the log entries above, I realize that the approach I used to improve the performance of the network has become adhoc after March 21st (log entry 2). The model marked in log entry 2 has achieved nearly 100% training accuracy and 96.5% validation accuracy. This means that the next step we should take is to reduce the gap between training and validation accuracy, since the avoidable bias (difference between human and training accuray) is a much smaller gap. Due to the fact that our training and validation datasets have similar data distribution, we can attribute the gap to the high variance (overfitting) of the data.</p>
+<p>To reduce the gap caused by the variance, there are a few things we can try:</p>
+<h4 id="Get-more-data-by-either-collecting-more-data-or-using-data-augmentation.">Get more data by either collecting more data or using data augmentation.<a class="anchor-link" href="#Get-more-data-by-either-collecting-more-data-or-using-data-augmentation.">&#182;</a></h4><p>We have incorporated some methods (credit to the post linked above) for generating fake data. Balancing the dataset made training harder and it changes the training data distribution. If we are going to work on the new training set, we need to separate the variance and possible data mismatch attributed to the gap.</p>
+<h4 id="Apply-regularization-using-L2-or-dropout-(for-CNN).">Apply regularization using L2 or dropout (for CNN).<a class="anchor-link" href="#Apply-regularization-using-L2-or-dropout-(for-CNN).">&#182;</a></h4><p>We have already applied dropout to the network and effectively seen 3% improvement on the validation set.</p>
+<h4 id="Search-for-better-network-architecture-and/or-hyperparameters.">Search for better network architecture and/or hyperparameters.<a class="anchor-link" href="#Search-for-better-network-architecture-and/or-hyperparameters.">&#182;</a></h4><p>Log entry 3, 4, 5, 6 and 8 can be considered as changing the network architecture. However, they did not provide noticable improvement comparing to the dropout layers. Log entry 7 and 9 increased the epoch numbers and didn't help because training the network longer doesn't help reducing the variance. They are used to reduce avoidable bias. Things we should consider to change in this category are to:</p>
+<ul>
+<li>reduce the learning rate (then we may need to increase the epoch number).</li>
+<li>reduce the keep_prob in drop-out.</li>
+<li>change the whole network architecture for something superior completely.</li>
+</ul>
+<p>Log entry 3 literally changes the architecture but didn't see much improvement. We may need to accompany some other changes (hyperparameters) to see a difference.</p>
+<h4 id="Continued-Work-Logs:">Continued Work Logs:<a class="anchor-link" href="#Continued-Work-Logs:">&#182;</a></h4><ol>
+<li>Reducing the epochs to 60. Using Modified_LeNet, changing the keep_prob to 0.35 (more drop_out). This ends with training accuracy 99.4% and validation accuracy 96.3%. Since there are oscilations in the last a few epochs, we should try to reduce the learning rate.</li>
+<li>Reducing the learning rate by 50%. This gives a training accuracy of 98.9% and Validation Accuracy of 96.6% after 60 epochs. The validation accuracy is keep increasing slowly towards 97%. We can try training the network with more epochs.</li>
+<li>Increased the epoch to 100 and it seems that there is no significant gain. We should consider keep training the existing model with a smaller learning rate and see if that helps. After trying this, the model seems to stuck at 99.9% training accuracy and 97% validation accuracy. Epoch 100, learning rate 0.0002. The lesson from this is that do not try too many epochs with one learning rate but train multiple times with different ones. It gives you opportunity to tune the learning rate more frequently. At this time I'm going to stop the training early since it's not improving anymore. </li>
+<li>Try more shorter trainings with smaller learning rate. <ol>
+<li>30 epochs with 0.0002 learning rate. Achieving 99.8% training accuracy and 97.2% validation accuracy.</li>
+<li>Tried a few more epochs with a even smaller learning rate. It doesn't seem to help. At this point. I'm thinking of generating more data for training. </li>
+</ol>
+</li>
+<li>Generate more data! <ol>
+<li>Each class gets 5000 examples. 60 Epochs and 0.001 learning rate. Achieving 97.9% training accuracy and 97.3% validation accuracy.</li>
+<li>Reducing the learning rate to 0.0005 and continued with 30 epochs. The validation accuracy stays 97.5% while training accuracy stays around 98.7%.</li>
+<li>Each class gets 10000 examples. 60 Epochs and 0.001 learning rate. The validation is around 97.3% while training is around 97.6%. It looks like the network may not be good enough for this dataset.</li>
+<li>Reducing the learning rate to 0.0005 and continues with 30 epochs. Maximum is around training 98.3% and validation around 97.6%. </li>
+<li>Continued with learning rate to 0.0002 for 30 extra epochs. No significant increases. It's time. I cannot afford more training on this project without a GPU and I suspect that I need a more superior network architecture to push forward.</li>
+</ol>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Continue-training-with-the-model-above">Continue training with the model above<a class="anchor-link" href="#Continue-training-with-the-model-above">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[233]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">EPOCHS</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="n">BATCH_SIZE</span> <span class="o">=</span> <span class="mi">128</span>
+<span class="n">LEARNING_RATE</span> <span class="o">=</span> <span class="mf">0.0002</span> 
+<span class="n">KEEP_PROB</span> <span class="o">=</span> <span class="mf">0.35</span>
+
+<span class="n">CHECK_POINT</span> <span class="o">=</span> <span class="s1">&#39;./modified-lenet&#39;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[234]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
+
+<span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">Session</span><span class="p">()</span> <span class="k">as</span> <span class="n">sess</span><span class="p">:</span>
+    <span class="n">saver</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">train</span><span class="o">.</span><span class="n">Saver</span><span class="p">()</span> 
+    <span class="n">saver</span><span class="o">.</span><span class="n">restore</span><span class="p">(</span><span class="n">sess</span><span class="p">,</span> <span class="s2">&quot;./modified-lenet&quot;</span><span class="p">)</span>
+    <span class="n">num_examples</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">y_train</span><span class="p">)</span>
+    
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Training in progress...&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">epoch</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">EPOCHS</span><span class="p">):</span>
+        <span class="n">X_train_grey_normalized</span><span class="p">,</span> <span class="n">y_train</span> <span class="o">=</span> <span class="n">shuffle</span><span class="p">(</span><span class="n">X_train_grey_normalized</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span> <span class="c1"># consider adding the random_state (the seed) to shuffle method</span>
+        <span class="k">for</span> <span class="n">offset</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">num_examples</span><span class="p">,</span> <span class="n">BATCH_SIZE</span><span class="p">):</span>
+            <span class="n">end</span> <span class="o">=</span> <span class="n">offset</span> <span class="o">+</span> <span class="n">BATCH_SIZE</span>
+            <span class="n">batch_x</span><span class="p">,</span> <span class="n">batch_y</span> <span class="o">=</span> <span class="n">X_train_grey_normalized</span><span class="p">[</span><span class="n">offset</span><span class="p">:</span><span class="n">end</span><span class="p">],</span> <span class="n">y_train</span><span class="p">[</span><span class="n">offset</span><span class="p">:</span><span class="n">end</span><span class="p">]</span>
+            <span class="n">sess</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">training_operation</span><span class="p">,</span> <span class="n">feed_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">x</span><span class="p">:</span> <span class="n">batch_x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">batch_y</span><span class="p">,</span> <span class="n">rate</span><span class="p">:</span> <span class="n">LEARNING_RATE</span><span class="p">,</span> <span class="n">keep_prob</span><span class="p">:</span> <span class="n">KEEP_PROB</span><span class="p">})</span>
+        
+        <span class="n">training_accuracy</span> <span class="o">=</span> <span class="n">evaluate</span><span class="p">(</span><span class="n">X_train_grey_normalized</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+        <span class="n">validation_accuracy</span> <span class="o">=</span> <span class="n">evaluate</span><span class="p">(</span><span class="n">X_valid_grey_normalized</span><span class="p">,</span> <span class="n">y_valid</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;EPOCH </span><span class="si">{}</span><span class="s2"> ...&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">epoch</span><span class="o">+</span><span class="mi">1</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Training Accuracy = </span><span class="si">{:.3f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">training_accuracy</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Validation Accuracy = </span><span class="si">{:.3f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">validation_accuracy</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">()</span>
+        
+    <span class="n">saver</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="n">sess</span><span class="p">,</span> <span class="n">CHECK_POINT</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Model saved.&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Training in progress...
+
+EPOCH 1 ...
+Training Accuracy = 0.986
+Validation Accuracy = 0.976
+
+EPOCH 2 ...
+Training Accuracy = 0.986
+Validation Accuracy = 0.977
+
+EPOCH 3 ...
+Training Accuracy = 0.986
+Validation Accuracy = 0.979
+
+EPOCH 4 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.977
+
+EPOCH 5 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.975
+
+EPOCH 6 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.975
+
+EPOCH 7 ...
+Training Accuracy = 0.986
+Validation Accuracy = 0.977
+
+EPOCH 8 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.975
+
+EPOCH 9 ...
+Training Accuracy = 0.986
+Validation Accuracy = 0.974
+
+EPOCH 10 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.975
+
+EPOCH 11 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.977
+
+EPOCH 12 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.975
+
+EPOCH 13 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.975
+
+EPOCH 14 ...
+Training Accuracy = 0.988
+Validation Accuracy = 0.976
+
+EPOCH 15 ...
+Training Accuracy = 0.988
+Validation Accuracy = 0.977
+
+EPOCH 16 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.974
+
+EPOCH 17 ...
+Training Accuracy = 0.988
+Validation Accuracy = 0.976
+
+EPOCH 18 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.975
+
+EPOCH 19 ...
+Training Accuracy = 0.988
+Validation Accuracy = 0.977
+
+EPOCH 20 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.975
+
+EPOCH 21 ...
+Training Accuracy = 0.988
+Validation Accuracy = 0.976
+
+EPOCH 22 ...
+Training Accuracy = 0.988
+Validation Accuracy = 0.975
+
+EPOCH 23 ...
+Training Accuracy = 0.988
+Validation Accuracy = 0.975
+
+EPOCH 24 ...
+Training Accuracy = 0.988
+Validation Accuracy = 0.975
+
+EPOCH 25 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.976
+
+EPOCH 26 ...
+Training Accuracy = 0.988
+Validation Accuracy = 0.976
+
+EPOCH 27 ...
+Training Accuracy = 0.989
+Validation Accuracy = 0.976
+
+EPOCH 28 ...
+Training Accuracy = 0.987
+Validation Accuracy = 0.978
+
+EPOCH 29 ...
+Training Accuracy = 0.988
+Validation Accuracy = 0.976
+
+EPOCH 30 ...
+Training Accuracy = 0.988
+Validation Accuracy = 0.976
+
+Model saved.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -13603,14 +14433,14 @@ Model saved.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[236]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
 
 <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">Session</span><span class="p">()</span> <span class="k">as</span> <span class="n">sess</span><span class="p">:</span>
     <span class="n">saver</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">train</span><span class="o">.</span><span class="n">Saver</span><span class="p">()</span> 
-    <span class="n">saver</span><span class="o">.</span><span class="n">restore</span><span class="p">(</span><span class="n">sess</span><span class="p">,</span> <span class="s2">&quot;./lenet&quot;</span><span class="p">)</span>
+    <span class="n">saver</span><span class="o">.</span><span class="n">restore</span><span class="p">(</span><span class="n">sess</span><span class="p">,</span> <span class="s2">&quot;./modified-lenet&quot;</span><span class="p">)</span>
     <span class="n">test_accuracy</span> <span class="o">=</span> <span class="n">evaluate</span><span class="p">(</span><span class="n">X_test_grey_normalized</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Test Accuracy = </span><span class="si">{:.3f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">test_accuracy</span><span class="p">))</span>
 </pre></div>
@@ -13629,7 +14459,7 @@ Model saved.
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Test Accuracy = 0.937
+<pre>Test Accuracy = 0.950
 </pre>
 </div>
 </div>
