@@ -43,6 +43,7 @@ What about generating more data? The data is imbalanced. As suggested, I created
 * Now we have 5000 examples per class. With just 60 Epochs and 0.001 learning rate, we got 97.9% training accuracy and 97.3% validation accuracy. 
 * Reduced the learning rate to 0.0005 and continued with 30 epochs. The validation accuracy stays 97.5% while training accuracy reached around 98.7%.
 * I tried with 10000 examples per class and repeated the process above. It stayed around 98.3% training accuracy and 97.6% validation accuracy. 
+* Using this model, the test accuracy increased to 95% from originally 93.7%. 
 
 Take aways
 ---
